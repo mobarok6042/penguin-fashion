@@ -28,13 +28,13 @@
 </head>
 <body>
     <header class="bg-orange-100">
-      <div class="flex justify-between px-24 pt-20 items-center">
+      <div class="flex flex-col lg:flex-row justify-between px-24 pt-20 items-center">
         <div>
             <span class="mont text-3xl text-slate-800 font-bold">Penguin</span><span class="mont text-3xl text-lime-600 font-bold">Fashion</span>
         </div>
         <div>
             <nav class="justify-around">
-                <ul class="flex flex-row font-medium">
+                <ul class="flex lg:flex-row font-medium">
                   <li>Home</li>
                   <li class="pl-12">Product</li>
                   <li class="pl-12">About us</li>
@@ -44,7 +44,7 @@
         </div>
       </div>
       <!--navbar done-->
-      <div class="flex flex-row items-center justify-around pt-8 px-24">
+      <div class="flex flex-col lg:flex-row items-center justify-around pt-8 px-24">
           <div class="">
             <h1 class="bebas font-medium text-6xl"><span class="text-yellow-600">BE THE PENGUINS</span><br><span class="text-slate-700">OF WINTER.</span></h1>
             <p class="roboto mt-8 w-52">Visit our show-rooms and choose your desired out-fit for this winter.Contact with us for more details.</p>
@@ -63,7 +63,7 @@
       <!--jacket store starts here-->
       <section class="py-12">
       <H2 class="bebas font-[#363958] text-6xl font-normal">WOMAN JACKET</H2>
-      <div class="grid grid-cols-3 gap-x-8 ">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-x-8 ">
         <!--jacket 1-->
         <div class="drop-shadow-lg rounded-2xl bg-white p-5 space-y-10">
             <div class="bg-[#F1F1F1] rounded-lg p-5 ">
@@ -114,7 +114,7 @@
       <!--mens jacket-->
     </section>
     <H2 class="bebas font-[#363958] text-6xl font-normal">MEN'S JACKET</H2>
-    <div class="grid grid-cols-3 gap-x-8">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-x-8">
       <!--jacket 1-->
      <div class="drop-shadow-lg rounded-2xl bg-white p-5 space-y-10">
             <div class="bg-[#F1F1F1] rounded-lg p-5 ">
@@ -162,29 +162,29 @@
     </div>
     </div>
     </main>
-    <footer class="p-32">
-       <div class="grid grid-cols-2 justify-between">
-        <div class="space-y-10">
-          <div class="flex items-center drop-shadow-lg p-5 w-90 bg-white justify-between">
+    <footer class="py-32 px-12">
+       <div class="grid grid-cols-1 lg:grid-cols-2 justify-between">
+        <div class="space-y-10 pr-10">
+          <div class="flex items-center drop-shadow-lg p-5 w-90 bg-white">
             <div class="w-20 h-20"><img src="icons/house.png" alt=""></div>
-            <div><h2 class="roboto text-base font-bold">Find the Perfect Fit</h2>
-            <h5 class="roboto text-sm font-normal w-50">Everybody is different, which is why we
+            <div class="pl-10"><h2 class="roboto text-base font-bold">Find the Perfect Fit</h2>
+            <h5 class="roboto text-sm font-normal w-3/4">Everybody is different, which is why we
               offer styles for every body.</h5></div>
           </div>
-          <div class="flex items-center drop-shadow-lg p-5 w-90 bg-white justify-between">
+          <div class="flex items-center drop-shadow-lg p-5 w-90 bg-white">
             <div class="w-20 h-20"><img src="icons/box.png" alt=""></div>
-            <div><h2 class="roboto text-base font-bold">Free Exchanges</h2>
-            <h5 class="roboto text-sm font-normal w-50">One of the many reasons you can shop
+            <div class="pl-10"><h2 class="roboto text-base font-bold">Free Exchanges</h2>
+            <h5 class="roboto text-sm font-normal w-3/4">One of the many reasons you can shop
               with peace of mind.</h5></div>
           </div>
-          <div class="flex items-center drop-shadow-lg p-5 w-90 bg-white justify-between">
+          <div class="flex items-center drop-shadow-lg p-3 w-90 bg-white">
             <div class="w-20 h-20"><img src="icons/question.png" alt=""></div>
-            <div><h2 class="roboto text-base font-bold">Contact Our Seller</h2>
-               <h5 class="roboto text-sm font-normal w-50">They are here to help you. That's quite 
+            <div class="pl-10"><h2 class="roboto text-base font-bold">Contact Our Seller</h2>
+               <h5 class="roboto text-sm font-normal w-3/4">They are here to help you. That's quite 
                 literally what we pay them for.</h5></div>
           </div>
         </div>
-        <div class="">
+        <div class="pl-10">
             <img src="images/shopping.png" alt="">
         </div>
        </div>
